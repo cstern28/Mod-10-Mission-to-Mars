@@ -105,7 +105,6 @@ def mars_facts():
 
     # Convert dataframe into HTML format, add bootstrap
     striped = df.to_html().replace("dataframe", "table table-striped")
-    print(striped)
     return striped
     
 
